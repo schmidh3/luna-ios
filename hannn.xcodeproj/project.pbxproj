@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB70ADDB1FCD2A1900E00796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70ADDA1FCD2A1900E00796 /* AppDelegate.swift */; };
+		BB70ADDD1FCD2A1900E00796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70ADDC1FCD2A1900E00796 /* ViewController.swift */; };
+		BB70ADE01FCD2A1900E00796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB70ADDE1FCD2A1900E00796 /* Main.storyboard */; };
+		BB70ADE21FCD2A1900E00796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB70ADE11FCD2A1900E00796 /* Assets.xcassets */; };
+		BB70ADE51FCD2A1900E00796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB70ADE31FCD2A1900E00796 /* LaunchScreen.storyboard */; };
+		BB70ADF01FCD2A1900E00796 /* hannnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70ADEF1FCD2A1900E00796 /* hannnTests.swift */; };
+		BB70ADFB1FCD33A100E00796 /* MeditationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70ADFA1FCD33A100E00796 /* MeditationTableViewController.swift */; };
+		BB70ADFF1FCD33C100E00796 /* BreathingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70ADFE1FCD33C100E00796 /* BreathingTableViewController.swift */; };
+		BB70AE011FCDB87700E00796 /* MeditationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70AE001FCDB87700E00796 /* MeditationList.swift */; };
+		BB70AE031FCDB88200E00796 /* MeditationListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70AE021FCDB88200E00796 /* MeditationListData.swift */; };
+		BB70AE051FCDBBA200E00796 /* MeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70AE041FCDBBA200E00796 /* MeditationViewController.swift */; };
+		BB70AE071FCE34BD00E00796 /* ExerciseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70AE061FCE34BD00E00796 /* ExerciseList.swift */; };
+		BB70AE091FCE34C800E00796 /* ExerciseListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70AE081FCE34C800E00796 /* ExerciseListData.swift */; };
+		BB70AE0B1FCE362A00E00796 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70AE0A1FCE362A00E00796 /* ExerciseViewController.swift */; };
+		BB70AE0D1FCE3DEA00E00796 /* ExerciseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70AE0C1FCE3DEA00E00796 /* ExerciseTableViewController.swift */; };
+		BB70AE0F1FCE45AE00E00796 /* BreathingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70AE0E1FCE45AE00E00796 /* BreathingViewController.swift */; };
+		BB70AE111FCE45B700E00796 /* BreathingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70AE101FCE45B700E00796 /* BreathingList.swift */; };
+		BB70AE131FCE45C200E00796 /* BreathingListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70AE121FCE45C200E00796 /* BreathingListData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB70ADEC1FCD2A1900E00796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB70ADCF1FCD2A1900E00796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB70ADD61FCD2A1900E00796;
+			remoteInfo = hannn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB70ADD71FCD2A1900E00796 /* hannn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hannn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB70ADDA1FCD2A1900E00796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB70ADDC1FCD2A1900E00796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB70ADDF1FCD2A1900E00796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB70ADE11FCD2A1900E00796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB70ADE41FCD2A1900E00796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB70ADE61FCD2A1900E00796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB70ADEB1FCD2A1900E00796 /* hannnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hannnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB70ADEF1FCD2A1900E00796 /* hannnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hannnTests.swift; sourceTree = "<group>"; };
+		BB70ADF11FCD2A1900E00796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB70ADFA1FCD33A100E00796 /* MeditationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationTableViewController.swift; sourceTree = "<group>"; };
+		BB70ADFE1FCD33C100E00796 /* BreathingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingTableViewController.swift; sourceTree = "<group>"; };
+		BB70AE001FCDB87700E00796 /* MeditationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationList.swift; sourceTree = "<group>"; };
+		BB70AE021FCDB88200E00796 /* MeditationListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationListData.swift; sourceTree = "<group>"; };
+		BB70AE041FCDBBA200E00796 /* MeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViewController.swift; sourceTree = "<group>"; };
+		BB70AE061FCE34BD00E00796 /* ExerciseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseList.swift; sourceTree = "<group>"; };
+		BB70AE081FCE34C800E00796 /* ExerciseListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListData.swift; sourceTree = "<group>"; };
+		BB70AE0A1FCE362A00E00796 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		BB70AE0C1FCE3DEA00E00796 /* ExerciseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewController.swift; sourceTree = "<group>"; };
+		BB70AE0E1FCE45AE00E00796 /* BreathingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingViewController.swift; sourceTree = "<group>"; };
+		BB70AE101FCE45B700E00796 /* BreathingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingList.swift; sourceTree = "<group>"; };
+		BB70AE121FCE45C200E00796 /* BreathingListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingListData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB70ADD41FCD2A1900E00796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB70ADE81FCD2A1900E00796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB70ADCE1FCD2A1900E00796 = {
+			isa = PBXGroup;
+			children = (
+				BB70ADD91FCD2A1900E00796 /* hannn */,
+				BB70ADEE1FCD2A1900E00796 /* hannnTests */,
+				BB70ADD81FCD2A1900E00796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB70ADD81FCD2A1900E00796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB70ADD71FCD2A1900E00796 /* hannn.app */,
+				BB70ADEB1FCD2A1900E00796 /* hannnTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB70ADD91FCD2A1900E00796 /* hannn */ = {
+			isa = PBXGroup;
+			children = (
+				BB70ADDA1FCD2A1900E00796 /* AppDelegate.swift */,
+				BB70ADDC1FCD2A1900E00796 /* ViewController.swift */,
+				BB70ADFA1FCD33A100E00796 /* MeditationTableViewController.swift */,
+				BB70AE041FCDBBA200E00796 /* MeditationViewController.swift */,
+				BB70AE001FCDB87700E00796 /* MeditationList.swift */,
+				BB70AE021FCDB88200E00796 /* MeditationListData.swift */,
+				BB70AE0C1FCE3DEA00E00796 /* ExerciseTableViewController.swift */,
+				BB70AE0A1FCE362A00E00796 /* ExerciseViewController.swift */,
+				BB70AE061FCE34BD00E00796 /* ExerciseList.swift */,
+				BB70AE081FCE34C800E00796 /* ExerciseListData.swift */,
+				BB70ADFE1FCD33C100E00796 /* BreathingTableViewController.swift */,
+				BB70AE0E1FCE45AE00E00796 /* BreathingViewController.swift */,
+				BB70AE101FCE45B700E00796 /* BreathingList.swift */,
+				BB70AE121FCE45C200E00796 /* BreathingListData.swift */,
+				BB70ADDE1FCD2A1900E00796 /* Main.storyboard */,
+				BB70ADE11FCD2A1900E00796 /* Assets.xcassets */,
+				BB70ADE31FCD2A1900E00796 /* LaunchScreen.storyboard */,
+				BB70ADE61FCD2A1900E00796 /* Info.plist */,
+			);
+			path = hannn;
+			sourceTree = "<group>";
+		};
+		BB70ADEE1FCD2A1900E00796 /* hannnTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB70ADEF1FCD2A1900E00796 /* hannnTests.swift */,
+				BB70ADF11FCD2A1900E00796 /* Info.plist */,
+			);
+			path = hannnTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB70ADD61FCD2A1900E00796 /* hannn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB70ADF41FCD2A1900E00796 /* Build configuration list for PBXNativeTarget "hannn" */;
+			buildPhases = (
+				BB70ADD31FCD2A1900E00796 /* Sources */,
+				BB70ADD41FCD2A1900E00796 /* Frameworks */,
+				BB70ADD51FCD2A1900E00796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hannn;
+			productName = hannn;
+			productReference = BB70ADD71FCD2A1900E00796 /* hannn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB70ADEA1FCD2A1900E00796 /* hannnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB70ADF71FCD2A1900E00796 /* Build configuration list for PBXNativeTarget "hannnTests" */;
+			buildPhases = (
+				BB70ADE71FCD2A1900E00796 /* Sources */,
+				BB70ADE81FCD2A1900E00796 /* Frameworks */,
+				BB70ADE91FCD2A1900E00796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB70ADED1FCD2A1900E00796 /* PBXTargetDependency */,
+			);
+			name = hannnTests;
+			productName = hannnTests;
+			productReference = BB70ADEB1FCD2A1900E00796 /* hannnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB70ADCF1FCD2A1900E00796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Hannah Schmidt";
+				TargetAttributes = {
+					BB70ADD61FCD2A1900E00796 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BB70ADEA1FCD2A1900E00796 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB70ADD61FCD2A1900E00796;
+					};
+				};
+			};
+			buildConfigurationList = BB70ADD21FCD2A1900E00796 /* Build configuration list for PBXProject "hannn" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB70ADCE1FCD2A1900E00796;
+			productRefGroup = BB70ADD81FCD2A1900E00796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB70ADD61FCD2A1900E00796 /* hannn */,
+				BB70ADEA1FCD2A1900E00796 /* hannnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB70ADD51FCD2A1900E00796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB70ADE51FCD2A1900E00796 /* LaunchScreen.storyboard in Resources */,
+				BB70ADE21FCD2A1900E00796 /* Assets.xcassets in Resources */,
+				BB70ADE01FCD2A1900E00796 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB70ADE91FCD2A1900E00796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB70ADD31FCD2A1900E00796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB70ADFF1FCD33C100E00796 /* BreathingTableViewController.swift in Sources */,
+				BB70AE091FCE34C800E00796 /* ExerciseListData.swift in Sources */,
+				BB70AE071FCE34BD00E00796 /* ExerciseList.swift in Sources */,
+				BB70ADDD1FCD2A1900E00796 /* ViewController.swift in Sources */,
+				BB70ADDB1FCD2A1900E00796 /* AppDelegate.swift in Sources */,
+				BB70AE111FCE45B700E00796 /* BreathingList.swift in Sources */,
+				BB70AE031FCDB88200E00796 /* MeditationListData.swift in Sources */,
+				BB70AE0B1FCE362A00E00796 /* ExerciseViewController.swift in Sources */,
+				BB70AE0F1FCE45AE00E00796 /* BreathingViewController.swift in Sources */,
+				BB70AE051FCDBBA200E00796 /* MeditationViewController.swift in Sources */,
+				BB70AE131FCE45C200E00796 /* BreathingListData.swift in Sources */,
+				BB70AE0D1FCE3DEA00E00796 /* ExerciseTableViewController.swift in Sources */,
+				BB70AE011FCDB87700E00796 /* MeditationList.swift in Sources */,
+				BB70ADFB1FCD33A100E00796 /* MeditationTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB70ADE71FCD2A1900E00796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB70ADF01FCD2A1900E00796 /* hannnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB70ADED1FCD2A1900E00796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB70ADD61FCD2A1900E00796 /* hannn */;
+			targetProxy = BB70ADEC1FCD2A1900E00796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB70ADDE1FCD2A1900E00796 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB70ADDF1FCD2A1900E00796 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB70ADE31FCD2A1900E00796 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB70ADE41FCD2A1900E00796 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB70ADF21FCD2A1900E00796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB70ADF31FCD2A1900E00796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB70ADF51FCD2A1900E00796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62LKGKRKX2;
+				INFOPLIST_FILE = hannn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = han.hannn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB70ADF61FCD2A1900E00796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62LKGKRKX2;
+				INFOPLIST_FILE = hannn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = han.hannn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB70ADF81FCD2A1900E00796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hannnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = han.hannnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hannn.app/hannn";
+			};
+			name = Debug;
+		};
+		BB70ADF91FCD2A1900E00796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hannnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = han.hannnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hannn.app/hannn";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB70ADD21FCD2A1900E00796 /* Build configuration list for PBXProject "hannn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB70ADF21FCD2A1900E00796 /* Debug */,
+				BB70ADF31FCD2A1900E00796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB70ADF41FCD2A1900E00796 /* Build configuration list for PBXNativeTarget "hannn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB70ADF51FCD2A1900E00796 /* Debug */,
+				BB70ADF61FCD2A1900E00796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB70ADF71FCD2A1900E00796 /* Build configuration list for PBXNativeTarget "hannnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB70ADF81FCD2A1900E00796 /* Debug */,
+				BB70ADF91FCD2A1900E00796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB70ADCF1FCD2A1900E00796 /* Project object */;
+}
